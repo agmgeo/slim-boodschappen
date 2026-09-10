@@ -1,0 +1,164 @@
+{
+  "app": {
+    "title": "Slimme Boodschappen",
+    "tagline": "Wat is voor jou vandaag de slimste manier om boodschappen te doen?"
+  },
+  "nav": {
+    "shoppingList": "Boodschappenlijst",
+    "compare": "Vergelijken",
+    "favorites": "Favorieten",
+    "settings": "Instellingen",
+    "scan": "Scannen",
+    "products": "Producten",
+    "supermarkets": "Supermarkten",
+    "pantry": "Voorraad"
+  },
+  "shoppingList": {
+    "title": "Mijn boodschappenlijst",
+    "addPlaceholder": "Bijv. \"2x halfvolle melk\"",
+    "add": "Toevoegen",
+    "empty": "Je lijst is nog leeg. Voeg hierboven je eerste product toe.",
+    "newListPlaceholder": "Nieuwe lijst",
+    "newListButton": "+ Nieuwe lijst",
+    "compareButton": "Vergelijk supermarkten →",
+    "loadError": "Kon lijsten niet laden.",
+    "addError": "Kon het product niet toevoegen."
+  },
+  "compare": {
+    "title": "Vergelijk supermarkten",
+    "comparing": "Bezig met vergelijken...",
+    "recommended": "Aanbevolen",
+    "otherOptions": "Andere opties",
+    "loadError": "Kon vergelijking niet ophalen.",
+    "multiStoreQuestion": "🔀 Loont het om meerdere supermarkten te bezoeken?",
+    "multiStoreCalculating": "Berekenen...",
+    "multiStoreYes": "Ja, dat scheelt €{amount} netto.",
+    "multiStoreNo": "Nee — de extra reiskosten wegen niet op tegen de besparing. Eén supermarkt blijft slimmer.",
+    "multiStoreTotal": "Totaal €{total} (incl. €{travel} reiskosten), t.o.v. €{baseline} bij één supermarkt.",
+    "multiStoreLoadError": "Kon multi-store-advies niet ophalen.",
+    "products": "product(en)",
+    "considerPantry": "Houd rekening met wat ik al op voorraad heb",
+    "excludedForStock": "{count} product(en) overgeslagen — die heb je al voldoende op voorraad."
+  },
+  "optimization": {
+    "cheapest": "Goedkoopste keuze",
+    "nearest": "Dichtstbijzijnde keuze",
+    "smartest": "Slimste keuze",
+    "missingProducts": "{count} product(en) niet gevonden bij deze supermarkt",
+    "savings": "Je bespaart €{amount}"
+  },
+  "auth": {
+    "login": "Inloggen",
+    "register": "Registreren",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "namePlaceholder": "Naam (optioneel)",
+    "genericError": "Er ging iets mis."
+  },
+  "settings": {
+    "title": "Instellingen",
+    "loading": "Laden...",
+    "homeLocation": "Thuislocatie",
+    "latitude": "Breedtegraad",
+    "longitude": "Lengtegraad",
+    "useMyLocation": "📍 Gebruik mijn huidige locatie",
+    "homeLocationHint": "Nodig om reisafstand/-kosten mee te wegen in de \"slimste keuze\".",
+    "travelMode": "Vervoersmiddel",
+    "travelModeWalk": "🚶 Lopen",
+    "travelModeBike": "🚲 Fietsen",
+    "travelModeCar": "🚗 Auto",
+    "travelModePublicTransport": "🚆 OV",
+    "costPerKm": "Kosten per km (€)",
+    "maxExtraStores": "Max. extra winkels voor multi-store besparing",
+    "save": "Opslaan",
+    "saved": "✓ Opgeslagen"
+  },
+  "favorites": {
+    "title": "Favorieten",
+    "empty": "Nog geen favorieten. Voeg producten toe aan je favorieten vanuit de productpagina.",
+    "productLabel": "Product"
+  },
+  "products": {
+    "title": "Producten",
+    "searchPlaceholder": "Zoek een product...",
+    "searching": "Zoeken...",
+    "empty": "Geen producten gevonden."
+  },
+  "product": {
+    "loading": "Laden...",
+    "makeFavorite": "☆ Favoriet maken",
+    "isFavorite": "★ Favoriet",
+    "healthScoreLabel": "Gezondheidsscore",
+    "healthScoreNote": "Transparant berekend, geen AI",
+    "nutritionTitle": "Voedingswaarde per 100g",
+    "energy": "Energie",
+    "fat": "Vet",
+    "saturatedFat": "Waarvan verzadigd",
+    "carbohydrates": "Koolhydraten",
+    "sugars": "Waarvan suikers",
+    "fiber": "Vezels",
+    "protein": "Eiwitten",
+    "salt": "Zout",
+    "allergens": "Allergenen",
+    "healthierAlternatives": "Gezondere alternatieven"
+  },
+  "scan": {
+    "title": "📷 Barcode scannen",
+    "startCamera": "Start camera",
+    "notSupported": "Je browser ondersteunt geen automatische barcode-scan. Voer de barcode hieronder handmatig in.",
+    "manualPlaceholder": "Barcode handmatig invoeren",
+    "search": "Zoek",
+    "cameraError": "Kon de camera niet openen. Gebruik hieronder handmatige invoer.",
+    "notFound": "Geen product gevonden voor barcode {barcode}.",
+    "scanError": "Scan mislukt."
+  },
+  "supermarkets": {
+    "title": "Supermarkten",
+    "namePlaceholder": "Naam van de supermarkt",
+    "add": "Toevoegen",
+    "addError": "Kon supermarkt niet toevoegen.",
+    "empty": "Nog geen supermarkten toegevoegd.",
+    "storeCount": "{count} filiaal/filialen",
+    "manageStores": "Filialen beheren",
+    "manageFolders": "Folders beheren",
+    "loading": "Laden...",
+    "addStore": "Filiaal toevoegen",
+    "storeName": "Naam filiaal",
+    "storeAddress": "Adres",
+    "latitude": "Breedtegraad",
+    "longitude": "Lengtegraad",
+    "storeFormError": "Vul een naam, adres en geldige coördinaten in.",
+    "noStores": "Nog geen filialen toegevoegd."
+  },
+  "folders": {
+    "backToSupermarkets": "Supermarkten",
+    "subtitle": "Folders",
+    "addFolder": "Folder toevoegen",
+    "validFrom": "Geldig vanaf",
+    "validUntil": "Geldig tot",
+    "add": "Toevoegen",
+    "formError": "Vul een start- en einddatum in.",
+    "addError": "Kon folder niet toevoegen.",
+    "manualNote": "Folders worden nu handmatig ingevoerd. Automatisch ophalen (bv. via folderz.nl) is nog niet geïmplementeerd — zie de aandachtspunten.",
+    "empty": "Nog geen folders toegevoegd.",
+    "loading": "Laden..."
+  },
+  "pantry": {
+    "title": "Voorraad",
+    "subtitle": "Wat heb je in huis, en wat is er bijna op?",
+    "searchPlaceholder": "Zoek een product om toe te voegen...",
+    "addError": "Kon product niet toevoegen.",
+    "empty": "Nog geen producten in je voorraad. Zoek hierboven een product om te beginnen.",
+    "restockPrompt": "{count} product(en) bijna op of op.",
+    "addToList": "Toevoegen aan \"{listName}\"",
+    "addedToList": "{count} product(en) toegevoegd aan je boodschappenlijst.",
+    "decrease": "Eén minder",
+    "increase": "Eén meer",
+    "remove": "Verwijderen uit voorraad",
+    "status": {
+      "OK": "op voorraad",
+      "LOW": "bijna op",
+      "OUT": "op"
+    }
+  }
+}

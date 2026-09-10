@@ -1,0 +1,6 @@
+{
+  "buildCommand": "corepack enable && pnpm install --frozen-lockfile && pnpm --filter @app/shared build && pnpm --filter @app/web build",
+  "outputDirectory": "apps/web/.next",
+  "installCommand": "echo 'install gebeurt al in buildCommand'",
+  "framework": "nextjs"
+}

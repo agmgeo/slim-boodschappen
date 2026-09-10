@@ -1,0 +1,164 @@
+{
+  "app": {
+    "title": "Smart Groceries",
+    "tagline": "What's the smartest way for you to do groceries today?"
+  },
+  "nav": {
+    "shoppingList": "Shopping list",
+    "compare": "Compare",
+    "favorites": "Favorites",
+    "settings": "Settings",
+    "scan": "Scan",
+    "products": "Products",
+    "supermarkets": "Supermarkets",
+    "pantry": "Pantry"
+  },
+  "shoppingList": {
+    "title": "My shopping list",
+    "addPlaceholder": "e.g. \"2x semi-skimmed milk\"",
+    "add": "Add",
+    "empty": "Your list is empty. Add your first product above.",
+    "newListPlaceholder": "New list",
+    "newListButton": "+ New list",
+    "compareButton": "Compare supermarkets →",
+    "loadError": "Could not load lists.",
+    "addError": "Could not add the product."
+  },
+  "compare": {
+    "title": "Compare supermarkets",
+    "comparing": "Comparing...",
+    "recommended": "Recommended",
+    "otherOptions": "Other options",
+    "loadError": "Could not load comparison.",
+    "multiStoreQuestion": "🔀 Is it worth visiting multiple supermarkets?",
+    "multiStoreCalculating": "Calculating...",
+    "multiStoreYes": "Yes, that saves €{amount} net.",
+    "multiStoreNo": "No — the extra travel cost outweighs the savings. One supermarket is still smarter.",
+    "multiStoreTotal": "Total €{total} (incl. €{travel} travel cost), vs. €{baseline} at a single supermarket.",
+    "multiStoreLoadError": "Could not load multi-store advice.",
+    "products": "product(s)",
+    "considerPantry": "Take into account what I already have in stock",
+    "excludedForStock": "{count} product(s) skipped — you already have enough in stock."
+  },
+  "optimization": {
+    "cheapest": "Cheapest option",
+    "nearest": "Nearest option",
+    "smartest": "Smartest option",
+    "missingProducts": "{count} product(s) not found at this supermarket",
+    "savings": "You save €{amount}"
+  },
+  "auth": {
+    "login": "Log in",
+    "register": "Register",
+    "email": "Email address",
+    "password": "Password",
+    "namePlaceholder": "Name (optional)",
+    "genericError": "Something went wrong."
+  },
+  "settings": {
+    "title": "Settings",
+    "loading": "Loading...",
+    "homeLocation": "Home location",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "useMyLocation": "📍 Use my current location",
+    "homeLocationHint": "Needed to weigh travel distance/cost into the \"smartest option\".",
+    "travelMode": "Travel mode",
+    "travelModeWalk": "🚶 Walk",
+    "travelModeBike": "🚲 Bike",
+    "travelModeCar": "🚗 Car",
+    "travelModePublicTransport": "🚆 Public transport",
+    "costPerKm": "Cost per km (€)",
+    "maxExtraStores": "Max. extra stores for multi-store savings",
+    "save": "Save",
+    "saved": "✓ Saved"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "empty": "No favorites yet. Add products to your favorites from the product page.",
+    "productLabel": "Product"
+  },
+  "products": {
+    "title": "Products",
+    "searchPlaceholder": "Search for a product...",
+    "searching": "Searching...",
+    "empty": "No products found."
+  },
+  "product": {
+    "loading": "Loading...",
+    "makeFavorite": "☆ Add to favorites",
+    "isFavorite": "★ Favorite",
+    "healthScoreLabel": "Health score",
+    "healthScoreNote": "Calculated transparently, no AI",
+    "nutritionTitle": "Nutrition per 100g",
+    "energy": "Energy",
+    "fat": "Fat",
+    "saturatedFat": "Of which saturated",
+    "carbohydrates": "Carbohydrates",
+    "sugars": "Of which sugars",
+    "fiber": "Fiber",
+    "protein": "Protein",
+    "salt": "Salt",
+    "allergens": "Allergens",
+    "healthierAlternatives": "Healthier alternatives"
+  },
+  "scan": {
+    "title": "📷 Scan barcode",
+    "startCamera": "Start camera",
+    "notSupported": "Your browser doesn't support automatic barcode scanning. Enter the barcode manually below.",
+    "manualPlaceholder": "Enter barcode manually",
+    "search": "Search",
+    "cameraError": "Could not open the camera. Use manual entry below.",
+    "notFound": "No product found for barcode {barcode}.",
+    "scanError": "Scan failed."
+  },
+  "supermarkets": {
+    "title": "Supermarkets",
+    "namePlaceholder": "Supermarket name",
+    "add": "Add",
+    "addError": "Could not add supermarket.",
+    "empty": "No supermarkets added yet.",
+    "storeCount": "{count} store(s)",
+    "manageStores": "Manage stores",
+    "manageFolders": "Manage folders",
+    "loading": "Loading...",
+    "addStore": "Add store",
+    "storeName": "Store name",
+    "storeAddress": "Address",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "storeFormError": "Enter a name, address and valid coordinates.",
+    "noStores": "No stores added yet."
+  },
+  "folders": {
+    "backToSupermarkets": "Supermarkets",
+    "subtitle": "Folders",
+    "addFolder": "Add folder",
+    "validFrom": "Valid from",
+    "validUntil": "Valid until",
+    "add": "Add",
+    "formError": "Enter a start and end date.",
+    "addError": "Could not add folder.",
+    "manualNote": "Folders are entered manually for now. Automatic import (e.g. via folderz.nl) is not yet implemented — see open items.",
+    "empty": "No folders added yet.",
+    "loading": "Loading..."
+  },
+  "pantry": {
+    "title": "Pantry",
+    "subtitle": "What do you have at home, and what's running low?",
+    "searchPlaceholder": "Search for a product to add...",
+    "addError": "Could not add product.",
+    "empty": "No products in your pantry yet. Search above to get started.",
+    "restockPrompt": "{count} product(s) low or out of stock.",
+    "addToList": "Add to \"{listName}\"",
+    "addedToList": "{count} product(s) added to your shopping list.",
+    "decrease": "One less",
+    "increase": "One more",
+    "remove": "Remove from pantry",
+    "status": {
+      "OK": "in stock",
+      "LOW": "low stock",
+      "OUT": "out of stock"
+    }
+  }
+}
